@@ -10,7 +10,7 @@ var Music = function(app) {
         title:'Music',
         class:'music',
         icon:'fas fa-music',
-        iconLink: 'http://srvpdc01:9000/',
+        iconLink: 'http://srvpdc01:9002/',
         help:'Music control',
         html:`<div>
             <i class="fas fa-fw fa-fast-backward"></i>
