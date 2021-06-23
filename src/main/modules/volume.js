@@ -4,7 +4,7 @@ const SqueezeRequest = require('./squeezerequest');
 var Volume = function(app) {
 
     this.app = app;
-    this.squeeze = new SqueezeRequest('192.168.30.15',9002,'00:04:20:12:22:db');
+    this.squeeze = new SqueezeRequest('webmks-ad-01',9000,'00:04:20:12:22:db');
     this.data = {
         id:1,
         title:'Volume',

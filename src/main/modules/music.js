@@ -4,13 +4,13 @@ const SqueezeRequest = require('./squeezerequest');
 var Music = function(app) {
     this.time = 0;
     this.app = app;
-    this.squeeze = new SqueezeRequest('192.168.30.15',9002,'00:04:20:12:22:db');
+    this.squeeze = new SqueezeRequest('webmks-ad-01',9000,'00:04:20:12:22:db');
     this.data = {
         id:2,
         title:'Music',
         class:'music',
         icon:'fas fa-music',
-        iconLink: 'http://srvpdc01:9002/',
+        iconLink: 'http://webmks-ad-01:9000/',
         help:'Music control',
         html:`<div>
             <i class="fas fa-fw fa-fast-backward"></i>
